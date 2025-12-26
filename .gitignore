@@ -10,8 +10,7 @@ ENV/
 
 # Logs
 *.log
-pokhara_generation.log
-pokhara_generation_fixed.log
+
 
 # Fixed/temporary generator
 generate_pokhara_data_fixed.py
