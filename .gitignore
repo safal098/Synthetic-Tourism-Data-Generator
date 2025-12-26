@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Logs
+*.log
+pokhara_generation.log
+pokhara_generation_fixed.log
+
+# Fixed/temporary generator
+generate_pokhara_data_fixed.py
+
+# Checkpoints
+outputs/*_checkpoint.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

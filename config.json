@@ -1,0 +1,19 @@
+{
+    "model_name": "gemma:7b",
+    "batch_size": 10,
+    "max_concurrent_batches": 2,
+    "target_counts": {
+        "neutral": 6000,
+        "positive": 4000,
+        "negative": 4000,
+        "sarcasm": 3000
+    },
+    "temperature": 0.8,
+    "top_p": 0.9,
+    "retry_attempts": 3,
+    "checkpoint_interval": 10,
+    "request_timeout": 300,
+    "output_dir": "outputs",
+    "min_words": 6,
+    "max_words": 25
+}
